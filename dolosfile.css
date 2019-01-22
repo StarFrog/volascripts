@@ -38,6 +38,11 @@ table th {
     background-color: var(--main-bg-color);
 }
 
+
+body {
+    font-size: 14px;
+}
+
 #chat_frame,
 #files_frame {
     border-top-color: var(--header-hi-color) !important;
@@ -101,6 +106,7 @@ table th {
 
 .filelist_file {
     border-bottom: 1px solid var(--main-bg-color);
+    height: 1.7em;
 }
 
 #file_list.even .filelist_file:nth-child(2n),
@@ -469,6 +475,10 @@ body {
 
 .top_nav_item:hover {
     background: var(--header-hi-color);
+}
+
+.chat_message {
+    padding: 2px 1em 1px .5em;
 }
 
 .chat_message .username .clickable:not(:hover) {
