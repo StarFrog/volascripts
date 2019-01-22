@@ -478,7 +478,7 @@ body {
 }
 
 .chat_message {
-    padding: 2px 1em 1px .5em;
+    padding: 0px 1em 0px 0.5em;
 }
 
 .chat_message .username .clickable:not(:hover) {
@@ -564,6 +564,7 @@ a.header_row_element_disabled:visited {
 }
 
 .file_right_part {
+    line-height: 1.6em;
     text-align: right;
 }
 
